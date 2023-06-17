@@ -13,8 +13,8 @@ to control the pixel ring
 
 
 requirements = [
-    'spidev',
-    'pyusb'
+    "spidev; platform_system == 'Linux'",
+    "pyusb"
 ]
 
 setup_requirements = [
